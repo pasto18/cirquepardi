@@ -1,0 +1,40 @@
+/* Estilo del panel de administración (Decap CMS).
+   Los colores de este archivo se escriben pensando en modo claro:
+   el filtro del <html> los invierte para mostrar el modo oscuro. */
+
+/* ---------- Modo oscuro ----------
+   Para volver al modo claro: borra o comenta el bloque html { ... } y el de img. */
+html {
+  background: #fff;
+  filter: invert(0.92) hue-rotate(180deg);
+}
+img, video, canvas, iframe,
+[class*="ImageWidget"] img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* ---------- Campos sin marco ----------
+   Etiqueta pequeña arriba y valor debajo, solo con una línea fina al pie. */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+textarea {
+  border: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  outline: none !important;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  border-bottom-color: rgba(0, 0, 0, 0.6) !important;
+}
