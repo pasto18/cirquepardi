@@ -1,0 +1,12 @@
+{
+  "nav": { "shows": "Espectáculos", "agenda": "Agenda", "news": "Noticias", "contact": "Contacto" },
+  "btn": { "book": "Reservar", "more": "Más información", "dates": "Ver las fechas", "read": "Leer más →", "send": "Enviar", "subscribe": "Suscribirse" },
+  "home": { "title": "Cirque Pardi" },
+  "shows": { "h1": "Espectáculos", "intro": "Creaciones de circo contemporáneo de la compañía: espectáculos bajo carpa, cabaret y espacio público.", "h2": "En cartel y próximamente" },
+  "show": { "synopsis": "Sinopsis", "disciplines": "Disciplinas", "tech": "Ficha técnica", "cast": "Reparto y equipo", "dates": "Próximas fechas", "noDates": "Sin fechas por ahora.", "notFound": "Espectáculo no encontrado." },
+  "agenda": { "h1": "Agenda", "intro": "Todas las fechas de la compañía, con enlace directo a la taquilla." },
+  "news": { "h1": "Noticias", "intro": "Las novedades de la compañía." },
+  "contact": { "h1": "Contacto", "intro": "Escríbenos o contacta directamente con el equipo.",
+    "name": "Nombre", "email": "Email", "subject": "Asunto", "message": "Mensaje", "phone": "Teléfono: por añadir", "sent": "Gracias, se abrirá tu programa de correo para enviar el mensaje." },
+  "footer": { "tagline": "Compañía de circo contemporáneo.", "nav": "Navegación", "newsletter": "Newsletter", "emailPh": "Tu email", "legal": "Avisos legales", "licences": "Licencias" }
+}

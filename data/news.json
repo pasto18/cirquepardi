@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "date": "2025-11-24",
+      "title": {
+        "es": "Últimas funciones en Tarragona",
+        "fr": "Dernières représentations à Tarragone"
+      },
+      "excerpt": {
+        "es": "Low Cost Paradise cierra su gira con las últimas funciones en Tarragona.",
+        "fr": "Low Cost Paradise clôt sa tournée avec les dernières représentations à Tarragone."
+      }
+    },
+    {
+      "date": "2025-09-06",
+      "title": {
+        "es": "Fin de Low Cost Paradise en Francia",
+        "fr": "Fin de Low Cost Paradise en France"
+      },
+      "excerpt": {
+        "es": "Contenido provisional: fin de la gira francesa.",
+        "fr": "Contenu provisoire : fin de la tournée française."
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "title": {
+        "es": "Una nueva etapa creativa",
+        "fr": "Une nouvelle étape créative"
+      },
+      "excerpt": {
+        "es": "Contenido provisional: la compañía abre una nueva etapa de creación.",
+        "fr": "Contenu provisoire : la compagnie ouvre une nouvelle étape de création."
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "provisional": true,
+      "title": {
+        "es": "Noticia provisional 1",
+        "fr": "Actualité provisoire 1"
+      },
+      "excerpt": {
+        "es": "Texto provisional.",
+        "fr": "Texte provisoire."
+      }
+    },
+    {
+      "date": "2025-03-01",
+      "provisional": true,
+      "title": {
+        "es": "Noticia provisional 2",
+        "fr": "Actualité provisoire 2"
+      },
+      "excerpt": {
+        "es": "Texto provisional.",
+        "fr": "Texte provisoire."
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "provisional": true,
+      "title": {
+        "es": "Noticia provisional 3",
+        "fr": "Actualité provisoire 3"
+      },
+      "excerpt": {
+        "es": "Texto provisional.",
+        "fr": "Texte provisoire."
+      }
+    }
+  ]
+}

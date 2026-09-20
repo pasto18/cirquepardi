@@ -1,0 +1,155 @@
+# Panel de administración (Decap CMS). Documentación: https://decapcms.org/docs/
+backend:
+  name: github
+  repo: pasto18/cirquepardi
+  branch: main
+
+locale: es
+media_folder: img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: contenido
+    label: Contenido de la web
+    files:
+      # ---------- ESPECTÁCULOS ----------
+      - name: shows
+        label: Espectáculos
+        file: data/shows.json
+        fields:
+          - label: Espectáculos
+            name: items
+            widget: list
+            label_singular: espectáculo
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Título, name: title, widget: string }
+              - { label: Año, name: year, widget: number, value_type: int, required: false }
+              - { label: Foto principal, name: image, widget: image, required: false }
+              - { label: Duración (ej. 1h30), name: duration, widget: string, required: false }
+              - label: Formato (bajo carpa, cabaret...)
+                name: format
+                widget: object
+                required: false
+                fields:
+                  - { label: Castellano, name: es, widget: string, required: false }
+                  - { label: Francés, name: fr, widget: string, required: false }
+              - label: Público
+                name: audience
+                widget: object
+                required: false
+                fields:
+                  - { label: Castellano, name: es, widget: string, required: false }
+                  - { label: Francés, name: fr, widget: string, required: false }
+              - label: Resumen corto (para la tarjeta)
+                name: summary
+                widget: object
+                fields:
+                  - { label: Castellano, name: es, widget: text }
+                  - { label: Francés, name: fr, widget: text, required: false }
+              - label: Frase de gancho
+                name: hook
+                widget: object
+                required: false
+                fields:
+                  - { label: Castellano, name: es, widget: string, required: false }
+                  - { label: Francés, name: fr, widget: string, required: false }
+              - label: Sinopsis
+                name: synopsis
+                widget: object
+                fields:
+                  - { label: Castellano, name: es, widget: text }
+                  - { label: Francés, name: fr, widget: text, required: false }
+              - label: Disciplinas
+                name: disciplines
+                widget: object
+                required: false
+                fields:
+                  - { label: Castellano, name: es, widget: list, required: false, field: { label: Disciplina, name: item, widget: string } }
+                  - { label: Francés, name: fr, widget: list, required: false, field: { label: Disciplina, name: item, widget: string } }
+              - label: Ficha técnica
+                name: tech
+                widget: object
+                required: false
+                fields:
+                  - label: Castellano
+                    name: es
+                    widget: list
+                    required: false
+                    summary: "{{fields.label}}"
+                    fields:
+                      - { label: Concepto (ej. Música), name: label, widget: string }
+                      - { label: Valor, name: value, widget: string }
+                  - label: Francés
+                    name: fr
+                    widget: list
+                    required: false
+                    summary: "{{fields.label}}"
+                    fields:
+                      - { label: Concepto, name: label, widget: string }
+                      - { label: Valor, name: value, widget: string }
+              - { label: Reparto (nombres), name: cast, widget: list, required: false, field: { label: Nombre, name: name, widget: string } }
+              - label: Equipo (una línea por rol)
+                name: crew
+                widget: object
+                required: false
+                fields:
+                  - { label: Castellano, name: es, widget: list, required: false, field: { label: Línea, name: line, widget: string } }
+                  - { label: Francés, name: fr, widget: list, required: false, field: { label: Línea, name: line, widget: string } }
+              - { label: Contenido provisional, name: provisional, widget: boolean, default: false, required: false }
+
+      # ---------- AGENDA ----------
+      - name: agenda
+        label: Agenda
+        file: data/agenda.json
+        fields:
+          - label: Fechas
+            name: items
+            widget: list
+            label_singular: fecha
+            summary: "{{fields.show}} · {{fields.place}}"
+            fields:
+              - label: Espectáculo
+                name: show
+                widget: relation
+                collection: contenido
+                file: shows
+                search_fields: ["items.*.title"]
+                value_field: "items.*.title"
+                display_fields: ["items.*.title"]
+              - { label: Fecha de inicio, name: start, widget: date, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+              - { label: Fecha de fin (si dura varios días), name: end, widget: date, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
+              - label: Texto si aún no hay fecha exacta (ej. "2027 · por confirmar")
+                name: dateLabel
+                widget: object
+                required: false
+                fields:
+                  - { label: Castellano, name: es, widget: string, required: false }
+                  - { label: Francés, name: fr, widget: string, required: false }
+              - { label: Año (solo si no hay fecha exacta), name: year, widget: number, value_type: int, required: false }
+              - { label: Lugar, name: place, widget: string }
+
+      # ---------- NOTICIAS ----------
+      - name: news
+        label: Noticias
+        file: data/news.json
+        fields:
+          - label: Noticias
+            name: items
+            widget: list
+            label_singular: noticia
+            summary: "{{fields.title.es}}"
+            fields:
+              - { label: Fecha, name: date, widget: date, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+              - label: Título
+                name: title
+                widget: object
+                fields:
+                  - { label: Castellano, name: es, widget: string }
+                  - { label: Francés, name: fr, widget: string, required: false }
+              - label: Extracto
+                name: excerpt
+                widget: object
+                fields:
+                  - { label: Castellano, name: es, widget: text }
+                  - { label: Francés, name: fr, widget: text, required: false }

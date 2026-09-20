@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "Cirque Pardi",
+    "address": "2564 route de Labastide, 31450 BAZIEGE, France",
+    "ticketUrl": "https://billetterie.festik.net/cirquepardi/",
+    "siret": "534 440 946 00026",
+    "ape": "9001Z",
+    "licences": "21-000384 / 21-000385 / 21-000386"
+  },
+  "groups": [
+    { "title": "Low Cost Paradise", "people": [
+      { "name": "Laura Cardona", "role": { "es": "Producción", "fr": "Production" } },
+      { "name": "Maël Tortel", "role": { "es": "Contacto artístico", "fr": "Contact artistique" } } ] },
+    { "title": "Flux", "people": [
+      { "name": "Lucile Malapert", "role": { "es": "Dirección de producción", "fr": "Direction de production" } } ] },
+    { "title": { "es": "Producción y administración", "fr": "Production et administration" }, "people": [
+      { "name": "Malika Louadoudi", "role": { "es": "Administración", "fr": "Administration" } } ] },
+    { "title": { "es": "Régie técnica", "fr": "Régie technique" }, "people": [
+      { "name": "Julie Darramon", "role": { "es": "Régie générale", "fr": "Régie générale" } },
+      { "name": "Anthony Caruana", "role": { "es": "Régisseur général", "fr": "Régisseur général" } } ] },
+    { "title": { "es": "Dirección", "fr": "Direction" }, "people": [
+      { "name": "Michel Golzio", "role": { "es": "Presidente", "fr": "Président" } },
+      { "name": "Eve Gerbenne", "role": { "es": "Secretaria", "fr": "Secrétaire" } } ] }
+  ]
+}

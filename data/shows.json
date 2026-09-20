@@ -1,0 +1,318 @@
+{
+  "items": [
+    {
+      "title": "Low Cost Paradise",
+      "year": 2019,
+      "image": null,
+      "duration": "1h30",
+      "format": {
+        "es": "Bajo carpa",
+        "fr": "Sous chapiteau"
+      },
+      "audience": {
+        "es": "Todos los públicos",
+        "fr": "Tout public"
+      },
+      "summary": {
+        "es": "Circo contemporáneo con pista circular, orquesta y clown.",
+        "fr": "Cirque contemporain en piste circulaire, orchestre et clown."
+      },
+      "hook": {
+        "es": "Señoras y señores, bienvenidos al paraíso de los olvidados…",
+        "fr": "Messieurs Dame, bienvenue au paradis des oubliés…"
+      },
+      "synopsis": {
+        "es": "Circo contemporáneo con pista circular, orquesta y clown. La vida como plató de cine eterno, entre sombra y luz, entre ficción y realidad.",
+        "fr": "Cirque contemporain en piste circulaire, orchestre et clown. La vie comme un plateau de cinéma éternel, entre ombre et lumière, entre fiction et réalité."
+      },
+      "disciplines": {
+        "es": [
+          "Trapecio fijo",
+          "Trapecio balanza",
+          "Danza",
+          "Bicicleta acrobática",
+          "Cable",
+          "Portés acrobáticos",
+          "Payaso",
+          "Malabares"
+        ],
+        "fr": [
+          "Trapèze fixe",
+          "Trapèze balançoire",
+          "Danse",
+          "Vélo acrobatique",
+          "Fil",
+          "Portés acrobatiques",
+          "Clown",
+          "Jonglage"
+        ]
+      },
+      "tech": {
+        "es": [
+          {
+            "label": "Creación",
+            "value": "Colectiva, 2019"
+          },
+          {
+            "label": "Ojo exterior",
+            "value": "Garniouze"
+          },
+          {
+            "label": "Música",
+            "value": "Antoine Bocquet"
+          },
+          {
+            "label": "Duración",
+            "value": "1h30"
+          },
+          {
+            "label": "Formato",
+            "value": "Bajo carpa"
+          }
+        ],
+        "fr": [
+          {
+            "label": "Création",
+            "value": "Collective, 2019"
+          },
+          {
+            "label": "Regard extérieur",
+            "value": "Garniouze"
+          },
+          {
+            "label": "Musique",
+            "value": "Antoine Bocquet"
+          },
+          {
+            "label": "Durée",
+            "value": "1h30"
+          },
+          {
+            "label": "Format",
+            "value": "Sous chapiteau"
+          }
+        ]
+      },
+      "cast": [
+        "Carola Aramburu",
+        "Elske van Gelder",
+        "Julien Mandier",
+        "Maël Tebibi",
+        "Marta Torrents",
+        "Eva Ordoñez",
+        "Timothé Loustalot Gares",
+        "Maël Tortel"
+      ],
+      "crew": {
+        "es": [
+          "Música: Antoine Bocquet",
+          "Producción y técnica: Anthony Caruana, Malika Louadoudi, Laura Cardona"
+        ],
+        "fr": [
+          "Musique : Antoine Bocquet",
+          "Production et technique : Anthony Caruana, Malika Louadoudi, Laura Cardona"
+        ]
+      }
+    },
+    {
+      "title": "Bleu électrique",
+      "year": 2026,
+      "provisional": true,
+      "duration": "Por confirmar",
+      "format": {
+        "es": "Por confirmar",
+        "fr": "À confirmer"
+      },
+      "audience": {
+        "es": "Por confirmar",
+        "fr": "À confirmer"
+      },
+      "summary": {
+        "es": "Nueva creación 2026 (contenido provisional).",
+        "fr": "Nouvelle création 2026 (contenu provisoire)."
+      },
+      "hook": {
+        "es": "Frase de gancho provisional.",
+        "fr": "Phrase d'accroche provisoire."
+      },
+      "synopsis": {
+        "es": "Sinopsis provisional de la nueva creación.",
+        "fr": "Synopsis provisoire de la nouvelle création."
+      },
+      "disciplines": {
+        "es": [
+          "Por confirmar"
+        ],
+        "fr": [
+          "À confirmer"
+        ]
+      },
+      "tech": {
+        "es": [
+          {
+            "label": "Creación",
+            "value": "2026"
+          }
+        ],
+        "fr": [
+          {
+            "label": "Création",
+            "value": "2026"
+          }
+        ]
+      },
+      "cast": [
+        "Por confirmar"
+      ],
+      "crew": {
+        "es": [],
+        "fr": []
+      }
+    },
+    {
+      "title": "Flux",
+      "year": 2027,
+      "provisional": true,
+      "summary": {
+        "es": "Nueva creación 2027, en residencia.",
+        "fr": "Nouvelle création 2027, en résidence."
+      },
+      "hook": {
+        "es": "Frase de gancho provisional.",
+        "fr": "Phrase d'accroche provisoire."
+      },
+      "synopsis": {
+        "es": "Sinopsis provisional.",
+        "fr": "Synopsis provisoire."
+      },
+      "disciplines": {
+        "es": [],
+        "fr": []
+      },
+      "tech": {
+        "es": [
+          {
+            "label": "Creación",
+            "value": "2027"
+          }
+        ],
+        "fr": [
+          {
+            "label": "Création",
+            "value": "2027"
+          }
+        ]
+      },
+      "cast": [],
+      "crew": {
+        "es": [],
+        "fr": []
+      }
+    },
+    {
+      "title": "Smala Cabaret",
+      "year": 2022,
+      "provisional": true,
+      "duration": "50 min",
+      "format": {
+        "es": "Cabaret",
+        "fr": "Cabaret"
+      },
+      "summary": {
+        "es": "Cabaret de 50 minutos.",
+        "fr": "Cabaret de 50 minutes."
+      },
+      "hook": {
+        "es": "",
+        "fr": ""
+      },
+      "synopsis": {
+        "es": "Sinopsis provisional.",
+        "fr": "Synopsis provisoire."
+      },
+      "disciplines": {
+        "es": [],
+        "fr": []
+      },
+      "tech": {
+        "es": [],
+        "fr": []
+      },
+      "cast": [],
+      "crew": {
+        "es": [],
+        "fr": []
+      }
+    },
+    {
+      "title": "Borderland",
+      "year": 2014,
+      "provisional": true,
+      "duration": "75 min",
+      "format": {
+        "es": "Bajo carpa",
+        "fr": "Sous chapiteau"
+      },
+      "summary": {
+        "es": "Espectáculo de 75 minutos bajo carpa.",
+        "fr": "Spectacle de 75 minutes sous chapiteau."
+      },
+      "hook": {
+        "es": "",
+        "fr": ""
+      },
+      "synopsis": {
+        "es": "Sinopsis provisional.",
+        "fr": "Synopsis provisoire."
+      },
+      "disciplines": {
+        "es": [],
+        "fr": []
+      },
+      "tech": {
+        "es": [],
+        "fr": []
+      },
+      "cast": [],
+      "crew": {
+        "es": [],
+        "fr": []
+      }
+    },
+    {
+      "title": "Rouge Nord",
+      "year": 2018,
+      "provisional": true,
+      "duration": "45 min",
+      "format": {
+        "es": "Espacio público",
+        "fr": "Espace public"
+      },
+      "summary": {
+        "es": "Ballet mecánico en espacio público.",
+        "fr": "Ballet mécanique en espace public."
+      },
+      "hook": {
+        "es": "",
+        "fr": ""
+      },
+      "synopsis": {
+        "es": "Sinopsis provisional.",
+        "fr": "Synopsis provisoire."
+      },
+      "disciplines": {
+        "es": [],
+        "fr": []
+      },
+      "tech": {
+        "es": [],
+        "fr": []
+      },
+      "cast": [],
+      "crew": {
+        "es": [],
+        "fr": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+:root {
+  /* Colores (Figma: colección "Colors") */
+  --color-background: #FFFFFF;
+  --color-surface: #F4F1EC;
+  --color-placeholder: #E3DED6;
+  --color-accent: #C8321E;
+  --color-text: #1A1A1A;
+  --color-text-muted: #6B6B6B;
+  --color-on-accent: #FFFFFF;
+  --color-border: #D9D5CE;
+
+  /* Espaciado (Figma: "Spacing") */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+
+  /* Radios */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+
+  /* Fuentes (Figma: "Typography") */
+  --font-heading: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Estilos de texto: tamaño / interlineado / peso */
+  --text-display: 700 64px/72px var(--font-heading);
+  --text-h1: 700 44px/52px var(--font-heading);
+  --text-h2: 700 30px/38px var(--font-heading);
+  --text-h3: 700 20px/28px var(--font-heading);
+  --text-lg: 400 18px/28px var(--font-body);
+  --text-base: 400 16px/24px var(--font-body);
+  --text-small: 400 14px/20px var(--font-body);
+  --text-nav: 500 14px/20px var(--font-body);
+  --text-button: 700 14px/20px var(--font-body);
+}

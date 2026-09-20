@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "show": "Flux",
+      "year": 2027,
+      "dateLabel": {
+        "es": "2027 · fechas por confirmar",
+        "fr": "2027 · dates à confirmer"
+      },
+      "place": "Estreno (provisional)"
+    },
+    {
+      "show": "Flux",
+      "year": 2026,
+      "dateLabel": {
+        "es": "2026 · residencia",
+        "fr": "2026 · résidence"
+      },
+      "place": "Cirk'Eole, Montigny-lès-Metz (57)"
+    },
+    {
+      "show": "Bleu électrique",
+      "year": 2026,
+      "dateLabel": {
+        "es": "2026 · fechas por confirmar",
+        "fr": "2026 · dates à confirmer"
+      },
+      "place": "CNAREP Pronomade(s), Encausse-les-Thermes (31)"
+    },
+    {
+      "show": "Low Cost Paradise",
+      "year": 2026,
+      "dateLabel": {
+        "es": "2026 · fechas por confirmar",
+        "fr": "2026 · dates à confirmer"
+      },
+      "place": "Ay-Roop, Rennes (35)"
+    },
+    {
+      "show": "Low Cost Paradise",
+      "start": "2025-12-20",
+      "end": "2025-12-26",
+      "place": "Tarragona, España"
+    },
+    {
+      "show": "Low Cost Paradise",
+      "start": "2025-10-01",
+      "end": "2025-10-05",
+      "place": "La Glissade, Aurignac (31)"
+    }
+  ]
+}
